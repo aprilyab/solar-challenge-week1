@@ -25,7 +25,6 @@ metric = st.selectbox(
     "Select Solar Metric",
     ['GHI', 'DNI', 'DHI']  # Common solar radiation metrics
 )
-
 # Display a subheader for the boxplot section
 st.subheader(f"Distribution of {metric} by Country")
 
