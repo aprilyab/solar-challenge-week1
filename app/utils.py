@@ -2,9 +2,9 @@ import pandas as pd  # Import pandas library for data manipulation
 
 def load_data():
     # Load cleaned CSV data files for each country from the specified directory
-    benin = pd.read_csv('C:/Users/user/Desktop/solar-challenge-week1/src/notebooks/data/benin_clean.csv')
-    togo = pd.read_csv('C:/Users/user/Desktop/solar-challenge-week1/src/notebooks/data/togo_clean.csv')
-    sierra = pd.read_csv('C:/Users/user/Desktop/solar-challenge-week1/src/notebooks/data/sierraleone_clean.csv')
+    benin = pd.read_csv('data/benin_clean.csv')
+    togo = pd.read_csv('data/togo_clean.csv')
+    sierra = pd.read_csv('data/sierraleone_clean.csv')
 
 
 
