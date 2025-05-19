@@ -7,7 +7,7 @@ def load_data():
     sierra = pd.read_csv('data/sierraleone_clean.csv')
 
 
-
+# Temporary comment to test git change detection
 
     # Add a new column 'Country' to each DataFrame to identify the data source
     benin['Country'] = 'Benin'
