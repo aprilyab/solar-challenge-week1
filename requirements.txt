@@ -1,3 +1,9 @@
-numpy
+streamlit
+
 pandas
-jupyter
+matplotlib
+seaborn
+
+
+seaborn
+
