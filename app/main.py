@@ -1,7 +1,8 @@
 import streamlit as st  # Streamlit library to build interactive web apps
 import seaborn as sns  # For creating attractive statistical plots
 import matplotlib.pyplot as plt  # For plotting graphs
-from utils import load_data  # Import the custom function to load solar data
+from app.utils import load_data
+  # Import the custom function to load solar data
 
 # Title displayed at the top of the Streamlit app
 st.title("Cross-Country Solar Energy Dashboard")
