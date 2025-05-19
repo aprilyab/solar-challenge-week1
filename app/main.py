@@ -2,7 +2,8 @@ import streamlit as st  # For building the web app
 import seaborn as sns  # For creating the boxplot
 import matplotlib.pyplot as plt  # For plotting
 import pandas as pd  # For data manipulation
-from app.utils import load_data  # Custom function to load cleaned solar data
+from utils import load_data
+  # Custom function to load cleaned solar data
 
 # Title of the dashboard
 st.title("🌞 Cross-Country Solar Energy Dashboard")
