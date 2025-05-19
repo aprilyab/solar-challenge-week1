@@ -1,7 +1,8 @@
 import streamlit as st  # Streamlit library to build interactive web apps
 import seaborn as sns  # For creating attractive statistical plots
 import matplotlib.pyplot as plt  # For plotting graphs
-from utils import load_data  # Import the custom function to load solar data
+from utils import load_data
+  # Import the custom function to load solar data
 
 # Title displayed at the top of the Streamlit app
 st.title("Cross-Country Solar Energy Dashboard")
@@ -24,7 +25,6 @@ metric = st.selectbox(
     "Select Solar Metric",
     ['GHI', 'DNI', 'DHI']  # Common solar radiation metrics
 )
-
 # Display a subheader for the boxplot section
 st.subheader(f"Distribution of {metric} by Country")
 
