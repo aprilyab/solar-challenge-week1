@@ -1,5 +1,5 @@
 import pandas as pd  # Import pandas library for data manipulation
-
+print("hhhg")
 def load_data():
     # Load cleaned CSV data files for each country from the specified directory
     benin = pd.read_csv('data/benin_clean.csv')
