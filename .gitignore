@@ -10,17 +10,17 @@ env/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Data files
-
-data/
-*.csv
+# Data files (ignore everything in data/ except these CSVs)
+data/*
 !data/benin_clean.csv
 !data/togo_clean.csv
 !data/sierraleone_clean.csv
 
-
+# Ignore all CSV files outside data/ directory
+*.csv
 
 # Other
 .DS_Store
 *.sqlite3
 *.log
+
