@@ -11,8 +11,14 @@ env/
 .ipynb_checkpoints/
 
 # Data files
+
 data/
 *.csv
+!data/benin_clean.csv
+!data/togo_clean.csv
+!data/sierraleone_clean.csv
+
+
 
 # Other
 .DS_Store
